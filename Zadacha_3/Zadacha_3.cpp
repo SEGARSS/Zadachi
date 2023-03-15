@@ -17,6 +17,6 @@ void main()
     {
         cout << i << " ";
     }
-    return;
+    
 
 }
