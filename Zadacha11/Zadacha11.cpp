@@ -11,11 +11,15 @@ using namespace std;
 void main()
 {
 	setlocale(LC_ALL, "ru");
-	srand(time(NULL));
-	int num = rand()% 991 +10;
+	srand(time(NULL)); // Без данного кода, генерация не будет идти случайно, а будет выдавать одно и тоже число.
+	int num = rand()% 900 +100; // формула для генерации трёхзначного числа
 	cout << "Сгенерированное число - " <<  num << endl;
-
-	// Доделай
+	int firstDigit = num / 100; // находим первую цифру числа
+	int thirdDigit = num % 10; // находим третью цифру числа
+	int newNum = firstDigit * 10 + thirdDigit; // формируем новое число без второй цифры
+	cout << "Число без второй цифры: " << newNum << endl;
+	return;
+	
 
 
 
