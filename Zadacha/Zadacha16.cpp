@@ -5,6 +5,7 @@
 €вл€етс€ ли одно число квадратом другого.
 */
 
+// омент
 
 #include <iostream>
 using namespace std;
