@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zadacha23", "Zadacha23\Zada
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zadacha24", "Zadacha24\Zadacha24.vcxproj", "{C0AE10BB-5263-4854-AB03-F26F4C8B787F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zadacha25", "Zadacha25\Zadacha25.vcxproj", "{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{C0AE10BB-5263-4854-AB03-F26F4C8B787F}.Release|x64.Build.0 = Release|x64
 		{C0AE10BB-5263-4854-AB03-F26F4C8B787F}.Release|x86.ActiveCfg = Release|Win32
 		{C0AE10BB-5263-4854-AB03-F26F4C8B787F}.Release|x86.Build.0 = Release|Win32
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Debug|x64.ActiveCfg = Debug|x64
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Debug|x64.Build.0 = Debug|x64
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Debug|x86.ActiveCfg = Debug|Win32
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Debug|x86.Build.0 = Debug|Win32
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Release|x64.ActiveCfg = Release|x64
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Release|x64.Build.0 = Release|x64
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Release|x86.ActiveCfg = Release|Win32
+		{300463FB-AE6F-48D0-8D4F-3B8F48FAE309}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
