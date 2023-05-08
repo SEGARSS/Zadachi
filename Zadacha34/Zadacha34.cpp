@@ -45,7 +45,8 @@ int countEven(int arr[], int SIZE)
 	return count;
 }
 
-void bubbleSort(int arr[], int size) {
+void bubbleSort(int arr[], int size) 
+{
 	// сортировка массива методом пузырька
 	for (int i = 0; i < size - 1; i++) 
 	{
@@ -59,7 +60,8 @@ void bubbleSort(int arr[], int size) {
 	}
 }
 
-void countingSort(int arr[], int size) {
+void countingSort(int arr[], int size) 
+{
 	// сортировка массива методом подсчЄта
 	const int MAX_VALUE = 999;
 	int count[MAX_VALUE + 1] = { 0 };
@@ -102,4 +104,4 @@ void main()
 	countEven(arr, SIZE);
 	PrintArra(arr, SIZE);
 
-}
+}// ѕодробней разбери метод сортировки пузырьковый и подсчЄта.
