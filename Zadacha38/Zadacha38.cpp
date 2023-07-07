@@ -6,7 +6,7 @@
 #include<ctime>
 using namespace std;
 
-void FillArray(double arr[], int size)
+void FillArray(double arr[], int size) // заполняем массив случайными числами
 {
 	for (int i = 0; i < size; i++)
 	{
