@@ -52,5 +52,5 @@ int main()
 	}
 	delete[] arr;
 
-	return 0; //
+	return 0; //23
 }
