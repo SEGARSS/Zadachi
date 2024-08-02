@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zadacha_50", "Zadacha_50\Za
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zadacha_51", "Zadacha_51\Zadacha_51.vcxproj", "{17100C2B-44F0-4176-90EC-D3B2BF20DC71}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zadacha_52", "Zadacha_52\Zadacha_52.vcxproj", "{991DA5BC-13C4-4CAF-862A-69EB28585FF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{17100C2B-44F0-4176-90EC-D3B2BF20DC71}.Release|x64.Build.0 = Release|x64
 		{17100C2B-44F0-4176-90EC-D3B2BF20DC71}.Release|x86.ActiveCfg = Release|Win32
 		{17100C2B-44F0-4176-90EC-D3B2BF20DC71}.Release|x86.Build.0 = Release|Win32
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Debug|x64.ActiveCfg = Debug|x64
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Debug|x64.Build.0 = Debug|x64
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Debug|x86.Build.0 = Debug|Win32
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Release|x64.ActiveCfg = Release|x64
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Release|x64.Build.0 = Release|x64
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Release|x86.ActiveCfg = Release|Win32
+		{991DA5BC-13C4-4CAF-862A-69EB28585FF8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
