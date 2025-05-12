@@ -1,37 +1,52 @@
-#include<iostream>
-using namespace std;
+/* Напишите программу, которая на вход принимает позиции элемента в двумерном массиве,
+   и возвращает значение этого элемента или же указание, что такого элемента нет. */
 
-/*Задача 50. 
-Напишите программу, 
-которая на вход принимает позиции элемента в двумерном массиве, 
-и возвращает значение этого элемента или же указание, 
-что такого элемента нет.
-*/
+#include<iostream>
+#include<vector>
+
+using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "ru");
+	setlocale(LC_ALL, "RU");
 
-	const int ROWS = 5;
-	const int COLS = 5;
+	int rows, cols;
 
-	int arr[ROWS][COLS]
+	cout << "Введите количество столбов в массиве: ";
+	cin >> rows;
+
+	cout << "Введите количество строк в массиве: ";
+	cin >> cols;
+
+	//Создаём двухмерный массив
+	vector<vector<int>> matrix(rows, vector<int>(cols));
+
+	//Ввод элементов массива
+	cout << "Введите элементы массива:\n" << endl;
+	for (int i = 0; i < rows; i++)
+		for (int j = 0; j < cols; j++)
+			cin >> matrix[i][j];
+
+	cout << "Полученный массив:" << endl;
+	for (int i = 0; i < rows; i++)
 	{
-		{13,6,3,94,50},
-		{35,32,68,5,9},
-		{97,31,68,77,82},
-		{25,4,37,8,1},
-		{0,32,32,5,58}
-	};
-
-	for (int i = 0; i < ROWS; i++)
-	{
-		for (int j = 0; j < COLS; j++)
+		for (int j = 0; j < cols; j++)
 		{
-			cout << arr[i][j] << " ";
+			cout << matrix[i][j] << " ";
 		}
 		cout << endl;
 	}
+
+	int row_pos, col_pos;
+
+	// Ввод позиции элемента
+	cout << "Введите номер строки и столбца элемента, который вы хотите получить (начиная с 0): ";
+	cin >> row_pos >> col_pos;
+
+	if (row_pos >= 0 && row_pos < rows && col_pos >= 0 && col_pos < cols)
+		cout << "Значение элемента: " << matrix[row_pos][col_pos] << endl;
+	else
+		cout << "Элемента с такой позицией нет в массиве." << endl;
 
 	return 0;
 }
